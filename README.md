@@ -1,8 +1,8 @@
 # LGTM Protocol V1
 
-lgtm is a meta-prompt i use with my cursor agent when working on a high-complexity task.
-it helps me avoid wasting hours finding every bit of context for complex prompt requests.
-think of it as a budget deep-researcher with real-time interpretability.
+- lgtm is a meta-prompt i use with my cursor agent when working on a high-complexity task.
+- it helps me avoid wasting hours finding every bit of context for complex prompt requests.
+- think of it as a budget deep-researcher with real-time interpretability.
 
 ## Usage
 

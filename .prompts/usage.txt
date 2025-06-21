@@ -1,0 +1,12 @@
+read through and fully comprehend the protocol outlined in 
+@lgtm-protocol.md
+
+follow our protocol's entire procedure, explictly, to help create a report. use `.prompts/runs/<name>` as your run folder.
+
+you are welcome to use all tools avaliable to you, within the specifications of our protocol. the tools might be differently defined.
+
+IMPORTANT: SHOW ALL YOUR WORK. DO NOT STOP UNTIL YOU ARE COMPLETELY DONE WITH EVERY PHASE AND HAVE CREATED A COMPLETED REPORT.
+
+IMPORTANT: DO NOT EXECUTE THE REPORT. I NEED TO APPROVE THE REPORT FIRST.
+
+answer our question:

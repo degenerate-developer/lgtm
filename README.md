@@ -17,22 +17,23 @@
 
 ### Model Recommendations
 
-- I typically use Claude 4 Sonnet for LGTM. Unless you have ample resources, avoid using max mode.
-- Any frontier reasoning model can be used, but each produces a very different experience.
+- i recommend using claude 4 sonnet for this. unless you're loaded, don't use max mode.
+- any frontier reasoning model works, but they all create wildly different experiences.
 
 ### Providing Problem Context
 
-- Always provide as much context as possible when describing the actual problem.
-- If the agent is heading in the wrong direction, stop the chat and give it feedback.
+- still provide as much context as possible when describing the actual problem.
+- if the agent is going in the wrong direction, stop the chat and give it feedback.
 
 ### Observing and Iterating
 
-- You can observe the research process in real-time by reading through the generated files.
-- To create follow-up research queries, run LGTM again alongside `./prompts/runs/`.
+- you can observe the research process in real-time by reading through generated files.
+- create follow-up research queries by running lgtm again alongside `./prompts/runs/`.
 
 ### WARNING
 
-- LLM hallucinations can compound errors, and the protocol is not always followed in its entirety. Always check the generated plan before approving it.
+- LLM hallucinations can compound errors and the protocol is not always followed in its entirety. always check the generated plan before approving it.
+
 
 ## MM Protocol (very-experimental)
 

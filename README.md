@@ -36,20 +36,18 @@ I also tried to ensure that the mm protocol would make changes in a more effecti
 
 ## QAs
 
-q: how does lgtm protocol work?
-a: it came to me in a dream. then i vibe-coded most of the math.
+### q: how does lgtm protocol work?
 
-q: can you give me a better explanation?
-a: i tried to formally model the academic research process for coding;
-find evidence, identify gaps in research, create and challenge hypotheses,
-then finally write a paper. your task proposal paper.
+### a: it came to me in a dream. then i vibe-coded most of the math.
 
-q: what's with the strange language in the prompt?
-a: some guy in a harvard basement showed me the magic of category theory.
-i thought it could be a nifty tool for modeling agentic processes more formally.
-the prompt evolved into haskell at some point after several generations.
+### q: can you give me a better explanation?
 
-q: anything else?
-a: if you're interested in learning more, i recommend asking an llm to create
-an explanation with ascii diagrams.
-also i think inference-time scaling will make lgtm's approach more viable over time.
+### a: i tried to formally model the academic research process for coding; find evidence, identify gaps in research, create and challenge hypotheses, then finally write a paper. your task proposal paper.
+
+### q: what's with the strange language in the prompt?
+
+### a: some guy in a harvard basement showed me the magic of category theory. i thought it could be a nifty tool for modeling agentic processes more formally. the prompt evolved into haskell at some point after several generations.
+
+### q: anything else?
+
+### a: if you're interested in learning more, i recommend asking an llm to create an explanation with ascii diagrams. also i think inference-time scaling will make lgtm's approach more viable over time.

@@ -1,12 +1,12 @@
 # LGTM Protocol V1
 
-lgtm is a meta-prompt i use with my cursor agent when starting a high-complexity task.
-it helps me avoid wasting hours adding context to complex prompt requests.
+lgtm is a meta-prompt i use with my cursor agent when working on a high-complexity task.
+it helps me avoid wasting hours finding every bit of context for complex prompt requests.
 think of it as a budget deep-researcher with real-time interpretability.
 
 ## Usage
 
-1. copy the contents of `.prompts/` into your project.
+1. copy the contents of `.prompts/` (`mm-protocol.md` optional) into your project directory.
 2. open a new cursor agent instance, copy and paste (use `command+shift+p`)
    the contents of `.prompts/usage.txt` into the prompt input box.
 3. drag `@lgtm-protocol.md` into the prompt input box.
@@ -42,12 +42,12 @@ I also tried to ensure that the mm protocol would make changes in a more effecti
 
 ### q: can you give me a better explanation?
 
-### a: i tried to formally model the academic research process for coding; find evidence, identify gaps in research, create and challenge hypotheses, then finally write a paper. your task proposal paper.
+### a: i tried to formally model the academic research process for coding; find evidence, identify gaps in research, create and challenge hypotheses, then finally write a pape. your task proposal paper.
 
 ### q: what's with the strange language in the prompt?
 
-### a: some guy in a harvard basement showed me the magic of category theory. i thought it could be a nifty tool for modeling agentic processes more formally. the prompt evolved into haskell at some point after several generations.
+### a: some guy in a harvard basement showed me the magic of category theory. i thought it could be a nifty tool for modeling agentic processes more formally. the meta-prompt evolved into haskell at some point after several generations.
 
 ### q: anything else?
 
-### a: if you're interested in learning more, i recommend asking an llm to create an explanation with ascii diagrams. also i think inference-time scaling will make lgtm's approach more viable over time.
+### a: if you're interested in learning more, check out the `diagram/` folder to see generated ascii diagrams of protocols. also i think inference-time scaling will make lgtm's approach more viable over time.

@@ -37,13 +37,13 @@
 
 ## MM Protocol (very-experimental)
 
-I use `mm-protocol.md` to edit the structure of the `lgtm-protocol.md`.
+i use `mm-protocol.md` to edit the structure of the `lgtm-protocol.md`.
 
-The Meta-Meta Protocol is a meta-meta-prompt that is used for editing meta-prompts.
+the Meta-Meta Protocol is a meta-meta-prompt that is used for editing meta-prompts.
 
-I tried to define the categories in such a way that they can be used to model every agentic pattern from the "Building effective agents" article by anthropic.
+i tried to define the categories in such a way that they can be used to model every agentic pattern from the "Building effective agents" article by anthropic.
 
-I also tried to ensure that the mm protocol would make changes in a more effective way by specifying certain mathematical properties.
+i also tried to ensure that the mm protocol would make changes in a more effective way by specifying certain mathematical properties.
 
 ## QAs
 

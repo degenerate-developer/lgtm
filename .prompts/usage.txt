@@ -1,12 +1,17 @@
-read through and fully comprehend the protocol outlined in 
-@lgtm-protocol.md
+# copy and paste (command+shift+p) this prompt into cursor agent (the side panel).
+# then write your actual prompt in the QUESTION section.
 
-follow our protocol's entire procedure, explictly, to help create a report. use `.prompts/runs/<name>` as your run folder.
+==DIRECTIONS==
+- find and read through the entirety of `.prompts/lgtm-protocol.md`
+- follow our protocol's entire procedure, explictly, to create a report.
+- you are welcome to use all tools avaliable to you, within the specifications of our protocol; tools might be named differently.
 
-you are welcome to use all tools avaliable to you, within the specifications of our protocol. the tools might be differently defined.
+==IMPORTANT==
+- show all your work. do not stop until you are completely done with every phase and have created a completed report.
+- do not implement any code changes. i need to approve the completed report first.
 
-IMPORTANT: SHOW ALL YOUR WORK. DO NOT STOP UNTIL YOU ARE COMPLETELY DONE WITH EVERY PHASE AND HAVE CREATED A COMPLETED REPORT.
-
-IMPORTANT: DO NOT EXECUTE THE REPORT. I NEED TO APPROVE THE REPORT FIRST.
-
+==QUESTION==
+use `.prompts/runs/run_name` as your run folder. 
 answer our question:
+
+what is the lgtm protocol? explain in simple terms how to use it.

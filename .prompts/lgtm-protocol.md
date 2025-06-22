@@ -10,7 +10,7 @@ Each execution creates a dedicated run folder with the following structure. File
 
 ```
 <runFolderPath>/
-├── worldview.json             # Main state file (v3 schema), log, pointers
+├── worldview.json             # Main state file, log, pointers
 ├── knowledge/                 # Subfolder for raw evidence artifacts
 │   ├── k_<EntryID>_evidence.md # Standard internal format
 │   └── ...
@@ -212,7 +212,7 @@ tools = fromList [
 ]
 ```
 
-### **B. Core Pipeline Primitives (Refactored)**
+### **B. Core Pipeline Primitives**
 
 ```haskell
 data PipelinePrimF next where
@@ -239,7 +239,7 @@ type Pipeline a = Free PipelinePrimF a
 type LogLevel = String -- e.g., "Info", "Warn", "Error"
 ```
 
-### **C. State Effect Handler (Removed/Refactored)**
+### **C. State Effect Handler**
 
 - Internal state updates use `StateT` effects during interpretation.
 - Helper functions return `Pipeline` values constructing explicit primitives.
@@ -298,7 +298,7 @@ type MicroHypothesisJson = Value
 -- ... other types ...
 ```
 
-## **III. Optimized Protocol Pipeline (Refactored for Explicit Effects)**
+## **III. Optimized Protocol Pipeline**
 
 ### **A. Initialization Phase**
 
@@ -718,7 +718,7 @@ runId :: Worldview -> String
 type PlanComponents = Value -- Placeholder
 ```
 
-### **G. Master Pipeline (Orchestration Logic in `StateT`)**
+### **G. Master Pipeline**
 
 ```haskell
 -- Orchestration logic using StateT and interpret

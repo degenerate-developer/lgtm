@@ -6,10 +6,9 @@
 
 ## Usage
 
-1. copy the contents of `.prompts/` (`mm-protocol.md` optional) into your project directory.
-2. open a new cursor agent instance, copy and paste (use `command+shift+p`)
-   the contents of `.prompts/usage.txt` into the prompt input box.
-3. drag `@lgtm-protocol.md` into the prompt input box.
+1. add the contents of `.prompts/` (`mm-protocol.md` optional) into your project directory.
+2. open a new cursor agent instance (side panel).
+3. copy and paste (`command+shift+p`) the contents of `usage.txt` into the prompt input.
 4. at the bottom of the prompt input, type the problem you're trying to solve.
 5. run the prompt. once done, you can check and approve the generated report.
 
@@ -17,7 +16,7 @@
 
 ### Model Recommendations
 
-- i recommend using claude 4 sonnet for this. unless you're loaded, don't use max mode.
+- i recommend using gemini 2.5 pro or claude 4 sonnet for this. don't use max mode unless you're loaded.
 - any frontier reasoning model works, but they all create wildly different experiences.
 
 ### Providing Problem Context

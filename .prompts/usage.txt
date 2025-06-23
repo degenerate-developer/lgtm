@@ -1,6 +1,3 @@
-# copy and paste (command+shift+p) this prompt into cursor agent (the side panel).
-# then write your actual prompt in the QUESTION section.
-
 ==DIRECTIONS==
 - find and read through the entirety of `.prompts/lgtm-protocol.md`
 - follow our protocol's entire procedure, explictly, to create a report.
@@ -14,4 +11,4 @@
 use `.prompts/runs/run_name` as your run folder. 
 answer our question:
 
-what is the lgtm protocol? explain in simple terms how to use it.
+what is lgtm protocol? explain what it is, how it works, and how to use it. provide me concrete examples.

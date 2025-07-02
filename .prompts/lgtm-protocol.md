@@ -401,7 +401,7 @@ setMicroHypothesisID :: String -> String -> MicroHypothesisJson -> MicroHypothes
 catMaybes :: [Maybe a] -> [a]
 ```
 
-### **B. Enhanced Hypothesis Refinement Loop**
+### **B. Hypothesis Refinement Loop**
 
 ```haskell
 -- Pipeline definition run by Iterate primitive

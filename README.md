@@ -11,12 +11,13 @@
 3. copy and paste (`command+shift+p`) the contents of `usage.txt` into the prompt input.
 4. at the bottom of the prompt input, type the problem you're trying to solve.
 5. run the prompt. once done, you can check and approve the generated report.
+6. you can `command+shift+v` to preview the files (recommend installing extension [markdown-mermaid](https://marketplace.cursorapi.com/items?itemName=bierner.markdown-mermaid) for previewing mermaid diagrams)
 
 ## Notes
 
 ### Model Recommendations
 
-- i recommend using gemini 2.5 pro or claude 4 sonnet for this. don't use max mode unless you're loaded.
+- i recommend using claude 4 sonnet. don't use max mode unless you're loaded.
 - any frontier reasoning model works, but they all create wildly different experiences.
 
 ### Providing Problem Context
@@ -27,7 +28,7 @@
 ### Observing and Iterating
 
 - you can observe the research process in real-time by reading through generated files.
-- create follow-up research queries by running lgtm again alongside `./prompts/runs/`.
+- create follow-up research queries by running lgtm within the same run folder.
 
 ### WARNING
 

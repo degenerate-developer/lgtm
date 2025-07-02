@@ -10,5 +10,3 @@
 ==QUESTION==
 use `.prompts/runs/run_name` as your run folder. 
 answer our question:
-
-what is lgtm protocol? explain what it is, how it works, and how to use it. provide me concrete examples.

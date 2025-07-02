@@ -11,7 +11,7 @@
 3. copy and paste (`command+shift+p`) the contents of `usage.txt` into the prompt input.
 4. at the bottom of the prompt input, type the problem you're trying to solve.
 5. run the prompt. once done, you can check and approve the generated report.
-6. you can `command+shift+v` to preview the files (recommend installing extension [markdown-mermaid](https://marketplace.cursorapi.com/items?itemName=bierner.markdown-mermaid) for previewing mermaid diagrams)
+6. to see the diagrams, you can preview the md files (`command+shift+v`). i recommend installing the [markdown-mermaid](https://marketplace.cursorapi.com/items?itemName=bierner.markdown-mermaid) extension for this.
 
 ## Notes
 
@@ -19,6 +19,7 @@
 
 - i recommend using claude 4 sonnet. don't use max mode unless you're loaded.
 - any frontier reasoning model works, but they all create wildly different experiences.
+- if you run into any issues with diagrams, i recommend using o3 for prompting fixes.
 
 ### Providing Problem Context
 
@@ -44,6 +45,10 @@ i tried to define the categories in such a way that they can be used to model ev
 
 i also tried to ensure that the mm protocol would make changes in a more effective way by specifying certain mathematical properties.
 
+## Next Steps
+
+i want to try to integrate the lgtm protocol into a proper cli agent to properly support the forking functionality and enable better memory management. i suspect that the null challenges might get biased by generations, so giving it a more limited context might help make the red-teaming more effective.
+
 ## QAs
 
 ### q: how does lgtm protocol work?
@@ -60,4 +65,4 @@ i also tried to ensure that the mm protocol would make changes in a more effecti
 
 ### q: anything else?
 
-### a: if you're interested in learning more, check out the `diagram/` folder to see generated ascii diagrams of protocols. also i think inference-time scaling will make lgtm's approach more viable over time.
+### a: if you're interested in learning more, check out the `diagram/` folder to see generated diagrams of protocols. also i think inference-time scaling will make lgtm's approach more viable over time.

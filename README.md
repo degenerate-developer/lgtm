@@ -12,7 +12,7 @@
 4. at the bottom of the prompt input, type the problem you're trying to solve.
 5. run the prompt. once done, you can check and approve the generated report.
 
-## Notes 
+## Notes
 
 ### Model Recommendations
 
@@ -32,7 +32,6 @@
 ### WARNING
 
 - LLM hallucinations can compound errors and the protocol is not always followed in its entirety. always check the generated plan before approving it.
-
 
 ## MM Protocol (very-experimental)
 
